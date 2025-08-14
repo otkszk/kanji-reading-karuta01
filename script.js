@@ -58,11 +58,12 @@ function switchScreen(hide, show){
   show.style.display = 'flex';
 }
 
-/* ---- 音声選択 修正版 ---- */
+/* ---- 音声選択 修正版（iOS対応 & ja-JP含む） ---- */
 function setupVoiceSelect(){
   const select = el('voice-select');
   select.innerHTML = '';
   let allVoices = [];
+
   try {
     if (typeof speechSynthesis !== 'undefined') {
       allVoices = speechSynthesis.getVoices() || [];
@@ -71,10 +72,19 @@ function setupVoiceSelect(){
     console.warn('音声取得エラー', e);
   }
 
-  // 日本語音声を優先的に抽出（langがja-JP または jaで始まるもの）
-  voiceList = allVoices.filter(v => v.lang && v.lang.toLowerCase().startsWith('ja'));
+  // iOSなどで音声リストが空の場合、少し遅延して再取得
+  if (allVoices.length === 0 && typeof speechSynthesis !== 'undefined') {
+    setTimeout(setupVoiceSelect, 200);
+    return;
+  }
 
-  // もし日本語音声が取得できない場合でも、すべての音声から選択可能にする
+  // lang に「ja-jp」が含まれる音声を優先、それがなければ ja を含むもの
+  voiceList = allVoices.filter(v => v.lang && v.lang.toLowerCase().includes('ja-jp'));
+  if (voiceList.length === 0) {
+    voiceList = allVoices.filter(v => v.lang && v.lang.toLowerCase().includes('ja'));
+  }
+
+  // 日本語音声が見つからない場合でも全音声から選択可能にする
   const displayList = voiceList.length > 0 ? voiceList : allVoices;
 
   if (!displayList || displayList.length === 0){
@@ -276,5 +286,6 @@ function finishGame(){
   makeResultTable();
   switchScreen(game, result);
 }
+
 
 
