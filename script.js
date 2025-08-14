@@ -58,32 +58,46 @@ function switchScreen(hide, show){
   show.style.display = 'flex';
 }
 
-/* ---- 音声 ---- */
+/* ---- 音声選択 修正版 ---- */
 function setupVoiceSelect(){
   const select = el('voice-select');
   select.innerHTML = '';
-  const all = (typeof speechSynthesis !== 'undefined') ? speechSynthesis.getVoices() : [];
-  voiceList = all.filter(v => v.lang && v.lang.toLowerCase().startsWith('ja'));
+  let allVoices = [];
+  try {
+    if (typeof speechSynthesis !== 'undefined') {
+      allVoices = speechSynthesis.getVoices() || [];
+    }
+  } catch(e) {
+    console.warn('音声取得エラー', e);
+  }
 
-  // 最大3件を表示（端末にある日本語音声）
-  const list = voiceList.slice(0,3);
-  if (list.length === 0){
+  // 日本語音声を優先的に抽出（langがja-JP または jaで始まるもの）
+  voiceList = allVoices.filter(v => v.lang && v.lang.toLowerCase().startsWith('ja'));
+
+  // もし日本語音声が取得できない場合でも、すべての音声から選択可能にする
+  const displayList = voiceList.length > 0 ? voiceList : allVoices;
+
+  if (!displayList || displayList.length === 0){
     const opt = document.createElement('option');
-    opt.textContent = '日本語の音声がありません';
+    opt.textContent = '利用可能な音声がありません';
     opt.value = '';
     select.appendChild(opt);
+    selectedVoice = null;
     return;
   }
-  list.forEach((v,i)=>{
+
+  // 最大3件表示
+  displayList.slice(0,3).forEach(v => {
     const opt = document.createElement('option');
     opt.value = v.name;
     opt.textContent = `${v.name} (${v.lang})`;
     select.appendChild(opt);
   });
-  selectedVoice = list[0];
-  select.value = list[0].name;
+
+  selectedVoice = displayList[0] || null;
+  select.value = selectedVoice ? selectedVoice.name : '';
   select.onchange = ()=>{
-    const v = voiceList.find(x=>x.name===select.value);
+    const v = allVoices.find(x=>x.name===select.value);
     if (v) selectedVoice = v;
   };
 }
@@ -262,3 +276,4 @@ function finishGame(){
   makeResultTable();
   switchScreen(game, result);
 }
+
