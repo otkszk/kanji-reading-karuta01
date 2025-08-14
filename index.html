@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>漢字読みかるた</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- メニュー画面 -->
+    <div id="menu" class="screen">
+      <h1>漢字読みかるた</h1>
+
+      <div class="setting-item">
+        <label>学年とセット</label>
+        <select id="grade-set" aria-label="学年とセット">
+          <option value="">選択してください</option>
+          <option value="1nen">１年</option>
+          <option value="2nen_1">２年①</option>
+          <option value="2nen_2">２年②</option>
+          <option value="3nen_1">３年①</option>
+          <option value="3nen_2">３年②</option>
+          <option value="4nen_1">４年①</option>
+          <option value="4nen_2">４年②</option>
+          <option value="5nen_1">５年①</option>
+          <option value="5nen_2">５年②</option>
+          <option value="6nen_1">６年①</option>
+          <option value="6nen_2">６年②</option>
+        </select>
+      </div>
+
+      <div class="setting-item">
+        <label>モード</label>
+        <select id="mode" aria-label="モード">
+          <option value="5">５問モード</option>
+          <option value="10">１０問モード</option>
+          <option value="15">１５問モード</option>
+        </select>
+      </div>
+
+      <div class="setting-item">
+        <label>音声の種類</label>
+        <select id="voice-select" aria-label="音声の種類"></select>
+      </div>
+
+      <div class="button-group">
+        <button id="btn-start-from-menu">テスト開始</button>
+        <button id="btn-show-history">記録を見る</button>
+      </div>
+    </div>
+
+    <!-- ゲーム画面 -->
+    <div id="game" class="screen" style="display:none;">
+      <header class="game-header">
+        <div class="header-left">
+          <button id="btn-start">スタート</button>
+          <button id="btn-repeat" disabled>リピート</button>
+        </div>
+        <div id="timer">0:00</div>
+        <div class="header-right">
+          <button id="btn-retry" disabled>リトライ</button>
+          <button id="btn-quit">中断してメニューに戻る</button>
+        </div>
+      </header>
+
+      <div id="card-grid" class="card-grid"></div>
+    </div>
+
+    <!-- 結果画面 -->
+    <div id="result" class="screen" style="display:none;">
+      <header class="result-header">
+        <h2>結果</h2>
+        <button id="btn-result-menu">メニューに戻る</button>
+      </header>
+      <p id="final-time">タイム: 0:00</p>
+      <div id="result-table-container"></div>
+    </div>
+
+    <!-- 履歴画面 -->
+    <div id="history" class="screen" style="display:none;">
+      <h2>過去の記録（最新10件）</h2>
+      <div id="history-table-container"></div>
+      <button id="btn-history-back">戻る</button>
+    </div>
+
+    <!-- モーダル -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <p id="modal-message"></p>
+        <div class="modal-buttons">
+          <button id="modal-ok">OK</button>
+          <button id="modal-cancel" style="display:none;">キャンセル</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
