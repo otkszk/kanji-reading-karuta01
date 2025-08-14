@@ -5,15 +5,15 @@
 // --- 定数・状態 ---
 const FILE_MAP = {
   "1nen": "１年.json",
-  "2nen_1": "２年①.json",
+  "2nen_1": "２年➀.json",
   "2nen_2": "２年➁.json",
-  "3nen_1": "３年①.json",
+  "3nen_1": "３年➀.json",
   "3nen_2": "３年➁.json",
-  "4nen_1": "４年①.json",
+  "4nen_1": "４年➀.json",
   "4nen_2": "４年➁.json",
-  "5nen_1": "５年①.json",
+  "5nen_1": "５年➀.json",
   "5nen_2": "５年➁.json",
-  "6nen_1": "６年①.json",
+  "6nen_1": "６年➀.json",
   "6nen_2": "６年➁.json"
 };
 
@@ -276,4 +276,5 @@ function finishGame(){
   makeResultTable();
   switchScreen(game, result);
 }
+
 
