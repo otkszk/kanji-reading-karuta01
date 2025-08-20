@@ -202,8 +202,17 @@ function buildGrid(count){
 /* ---- ゲーム進行 修正版 ---- */
 function startGameLogic(){
   if (timerId) clearInterval(timerId);
+
+  // iOS対策: ユーザー操作直後にダミー発話
+  if (typeof speechSynthesis !== 'undefined' && selectedVoice){
+    const dummy = new SpeechSynthesisUtterance(' ');
+    dummy.voice = selectedVoice;
+    dummy.lang = selectedVoice.lang || 'ja-JP';
+    speechSynthesis.speak(dummy);
+  }
+
   startTime = Date.now();
-  updateTimer(); // すぐに1回表示更新
+  updateTimer();
   timerId = setInterval(updateTimer, 1000);
 
   el('btn-start').disabled = true;
@@ -366,6 +375,7 @@ function showModal(message, withCancel=false){
     cancel.onclick = ()=>close(false);
   });
 }
+
 
 
 
