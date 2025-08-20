@@ -129,7 +129,7 @@ function speak(text){
   }
 }
 
-/* ---- メニューから開始 ---- */
+/* ---- メニューから開始 修正版 ---- */
 async function handleStartFromMenu(){
   const setKey = el('grade-set').value;
   const count = parseInt(el('mode').value,10);
@@ -138,10 +138,10 @@ async function handleStartFromMenu(){
     await showModal('学年とセットを選んでください');
     return;
   }
-  // 音声チェック
+  // 音声チェック（選択済みでなくても一応通す）
   if (!selectedVoice){
     await showModal('日本語の音声が利用できません');
-    return;
+    // ただし音声がなくてもゲーム画面には移行可能にする
   }
 
   try{
@@ -163,12 +163,15 @@ async function handleStartFromMenu(){
     el('btn-repeat').disabled = true;
     el('btn-retry').disabled = true;
 
-    switchScreen(menu, game);
+    // 画面遷移を確実に実行
+    menu.style.display = 'none';
+    game.style.display = 'flex';
   }catch(err){
     console.error(err);
     await showModal(`問題データの読み込みに失敗しました\n${err.message}`);
   }
 }
+```
 
 /* ---- グリッド構成 ---- */
 function buildGrid(count){
@@ -286,6 +289,7 @@ function finishGame(){
   makeResultTable();
   switchScreen(game, result);
 }
+
 
 
 
