@@ -1,0 +1,334 @@
+[
+  {
+    "kanji": "尊敬",
+    "reading": "そんけい"
+  },
+  {
+    "kanji": "腹痛",
+    "reading": "ふくつう"
+  },
+  {
+    "kanji": "呼吸",
+    "reading": "こきゅう"
+  },
+  {
+    "kanji": "宿舎",
+    "reading": "しゅくしゃ"
+  },
+  {
+    "kanji": "異論",
+    "reading": "いろん"
+  },
+  {
+    "kanji": "困難",
+    "reading": "こんなん"
+  },
+  {
+    "kanji": "優勝",
+    "reading": "ゆうしょう"
+  },
+  {
+    "kanji": "否定",
+    "reading": "ひてい"
+  },
+  {
+    "kanji": "降参",
+    "reading": "こうさん"
+  },
+  {
+    "kanji": "班長",
+    "reading": "はんちょう"
+  },
+  {
+    "kanji": "座席",
+    "reading": "ざせき"
+  },
+  {
+    "kanji": "姿勢",
+    "reading": "しせい"
+  },
+  {
+    "kanji": "著者",
+    "reading": "ちょしゃ"
+  },
+  {
+    "kanji": "討論",
+    "reading": "とうろん"
+  },
+  {
+    "kanji": "割合",
+    "reading": "わりあい"
+  },
+  {
+    "kanji": "簡単",
+    "reading": "かんたん"
+  },
+  {
+    "kanji": "朗読",
+    "reading": "ろうどく"
+  },
+  {
+    "kanji": "担任",
+    "reading": "たんにん"
+  },
+  {
+    "kanji": "訪問",
+    "reading": "ほうもん"
+  },
+  {
+    "kanji": "臨時",
+    "reading": "りんじ"
+  },
+  {
+    "kanji": "就職",
+    "reading": "しゅうしょく"
+  },
+  {
+    "kanji": "聖書",
+    "reading": "せいしょ"
+  },
+  {
+    "kanji": "収入",
+    "reading": "しゅうりゅう"
+  },
+  {
+    "kanji": "納税",
+    "reading": "のうぜい"
+  },
+  {
+    "kanji": "除外",
+    "reading": "じょがい"
+  },
+  {
+    "kanji": "批判",
+    "reading": "ひはん"
+  },
+  {
+    "kanji": "株式",
+    "reading": "かぶしき"
+  },
+  {
+    "kanji": "沿岸",
+    "reading": "えんがん"
+  },
+  {
+    "kanji": "灰色",
+    "reading": "はいいろ"
+  },
+  {
+    "kanji": "権力",
+    "reading": "けんりょく"
+  },
+  {
+    "kanji": "拡大",
+    "reading": "かくだい"
+  },
+  {
+    "kanji": "危険",
+    "reading": "きけん"
+  },
+  {
+    "kanji": "厳重",
+    "reading": "げんじゅう"
+  },
+  {
+    "kanji": "探検",
+    "reading": "たんけん"
+  },
+  {
+    "kanji": "疑問",
+    "reading": "ぎもん"
+  },
+  {
+    "kanji": "乱雑",
+    "reading": "らんざつ"
+  },
+  {
+    "kanji": "補欠",
+    "reading": "ほけつ"
+  },
+  {
+    "kanji": "若者",
+    "reading": "わかもの"
+  },
+  {
+    "kanji": "誤解",
+    "reading": "ごかい"
+  },
+  {
+    "kanji": "障害",
+    "reading": "しょうがい"
+  },
+  {
+    "kanji": "傷口",
+    "reading": "きずぐち"
+  },
+  {
+    "kanji": "翌日",
+    "reading": "よくじつ"
+  },
+  {
+    "kanji": "裏側",
+    "reading": "うらがわ"
+  },
+  {
+    "kanji": "穀物",
+    "reading": "こくもつ"
+  },
+  {
+    "kanji": "推理",
+    "reading": "すいり"
+  },
+  {
+    "kanji": "将軍",
+    "reading": "しょうぐん"
+  },
+  {
+    "kanji": "蒸発",
+    "reading": "しょうはつ"
+  },
+  {
+    "kanji": "俳句",
+    "reading": "はいく"
+  },
+  {
+    "kanji": "熟語",
+    "reading": "じゅくご"
+  },
+  {
+    "kanji": "垂直",
+    "reading": "すいちょく"
+  },
+  {
+    "kanji": "磁石",
+    "reading": "じしゃく"
+  },
+  {
+    "kanji": "貴族",
+    "reading": "きぞく"
+  },
+  {
+    "kanji": "革命",
+    "reading": "かくめい"
+  },
+  {
+    "kanji": "幼い",
+    "reading": "おさない"
+  },
+  {
+    "kanji": "至る",
+    "reading": "いたる"
+  },
+  {
+    "kanji": "我ら",
+    "reading": "われら"
+  },
+  {
+    "kanji": "米俵",
+    "reading": "こめだわら"
+  },
+  {
+    "kanji": "参拝",
+    "reading": "さんぱい"
+  },
+  {
+    "kanji": "感激",
+    "reading": "かんげき"
+  },
+  {
+    "kanji": "故郷",
+    "reading": "こきょう"
+  },
+  {
+    "kanji": "地域",
+    "reading": "ちいき"
+  },
+  {
+    "kanji": "子供",
+    "reading": "こども"
+  },
+  {
+    "kanji": "体操",
+    "reading": "たいそう"
+  },
+  {
+    "kanji": "服装",
+    "reading": "ふくそう"
+  },
+  {
+    "kanji": "住宅",
+    "reading": "じゅうたく"
+  },
+  {
+    "kanji": "保存",
+    "reading": "ほぞん"
+  },
+  {
+    "kanji": "意欲",
+    "reading": "いよく"
+  },
+  {
+    "kanji": "米倉",
+    "reading": "こめぐら"
+  },
+  {
+    "kanji": "経済",
+    "reading": "けいざい"
+  },
+  {
+    "kanji": "消防署",
+    "reading": "しょうぼうしょ"
+  },
+  {
+    "kanji": "親孝行",
+    "reading": "おやこうこう"
+  },
+  {
+    "kanji": "銀河系",
+    "reading": "ぎんがけい"
+  },
+  {
+    "kanji": "並木道",
+    "reading": "なみきみち"
+  },
+  {
+    "kanji": "忘れ物",
+    "reading": "わすれもの"
+  },
+  {
+    "kanji": "届ける",
+    "reading": "とどける"
+  },
+  {
+    "kanji": "認める",
+    "reading": "にとめる"
+  },
+  {
+    "kanji": "模造紙",
+    "reading": "もぞうし"
+  },
+  {
+    "kanji": "捨てる",
+    "reading": "すてる"
+  },
+  {
+    "kanji": "縦と横",
+    "reading": "たてとよこ"
+  },
+  {
+    "kanji": "花飾り",
+    "reading": "はなかざり"
+  },
+  {
+    "kanji": "夕暮れ",
+    "reading": "ゆうぐれ"
+  },
+  {
+    "kanji": "染める",
+    "reading": "そめる"
+  },
+  {
+    "kanji": "寒暖計",
+    "reading": "おんだんけい"
+  }
+]

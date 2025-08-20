@@ -1,0 +1,306 @@
+[
+  {
+    "kanji": "一",
+    "reading": "いち"
+  },
+  {
+    "kanji": "二",
+    "reading": "に"
+  },
+  {
+    "kanji": "三",
+    "reading": "さん"
+  },
+  {
+    "kanji": "四",
+    "reading": "よん"
+  },
+  {
+    "kanji": "五",
+    "reading": "ご"
+  },
+  {
+    "kanji": "六",
+    "reading": "ろく"
+  },
+  {
+    "kanji": "七",
+    "reading": "しち"
+  },
+  {
+    "kanji": "八",
+    "reading": "はち"
+  },
+  {
+    "kanji": "九",
+    "reading": "きゅう"
+  },
+  {
+    "kanji": "十",
+    "reading": "じゅう"
+  },
+  {
+    "kanji": "百",
+    "reading": "ひゃく"
+  },
+  {
+    "kanji": "千",
+    "reading": "せん"
+  },
+  {
+    "kanji": "森",
+    "reading": "もり"
+  },
+  {
+    "kanji": "林",
+    "reading": "はやし"
+  },
+  {
+    "kanji": "山",
+    "reading": "やま"
+  },
+  {
+    "kanji": "川",
+    "reading": "かわ"
+  },
+  {
+    "kanji": "木",
+    "reading": "き"
+  },
+  {
+    "kanji": "草",
+    "reading": "くさ"
+  },
+  {
+    "kanji": "花",
+    "reading": "はな"
+  },
+  {
+    "kanji": "天",
+    "reading": "てん"
+  },
+  {
+    "kanji": "空",
+    "reading": "そら"
+  },
+  {
+    "kanji": "月",
+    "reading": "つき"
+  },
+  {
+    "kanji": "夕日",
+    "reading": "ゆうひ"
+  },
+  {
+    "kanji": "石",
+    "reading": "いし"
+  },
+  {
+    "kanji": "上",
+    "reading": "うえ"
+  },
+  {
+    "kanji": "下",
+    "reading": "した"
+  },
+  {
+    "kanji": "町",
+    "reading": "まち"
+  },
+  {
+    "kanji": "村",
+    "reading": "むら"
+  },
+  {
+    "kanji": "水車",
+    "reading": "すいしゃ"
+  },
+  {
+    "kanji": "小人",
+    "reading": "こびと"
+  },
+  {
+    "kanji": "雨の音",
+    "reading": "あめのおと"
+  },
+  {
+    "kanji": "学校",
+    "reading": "がっこう"
+  },
+  {
+    "kanji": "男",
+    "reading": "おとこ"
+  },
+  {
+    "kanji": "先生",
+    "reading": "せんせい"
+  },
+  {
+    "kanji": "女の子",
+    "reading": "おんなのこ"
+  },
+  {
+    "kanji": "名札",
+    "reading": "なふだ"
+  },
+  {
+    "kanji": "金もち",
+    "reading": "かねもち"
+  },
+  {
+    "kanji": "正しい",
+    "reading": "ただしい"
+  },
+  {
+    "kanji": "出る",
+    "reading": "でる"
+  },
+  {
+    "kanji": "入る",
+    "reading": "はいる"
+  },
+  {
+    "kanji": "見る",
+    "reading": "みる"
+  },
+  {
+    "kanji": "休む",
+    "reading": "やすむ"
+  },
+  {
+    "kanji": "青",
+    "reading": "あお"
+  },
+  {
+    "kanji": "赤",
+    "reading": "あか"
+  },
+  {
+    "kanji": "白",
+    "reading": "しろ"
+  },
+  {
+    "kanji": "金",
+    "reading": "きん"
+  },
+  {
+    "kanji": "天気",
+    "reading": "てんき"
+  },
+  {
+    "kanji": "貝",
+    "reading": "かい"
+  },
+  {
+    "kanji": "千人",
+    "reading": "せんにん"
+  },
+  {
+    "kanji": "百円玉",
+    "reading": "ひゃくえんだま"
+  },
+  {
+    "kanji": "花火",
+    "reading": "はなび"
+  },
+  {
+    "kanji": "犬",
+    "reading": "いぬ"
+  },
+  {
+    "kanji": "目",
+    "reading": "め"
+  },
+  {
+    "kanji": "耳",
+    "reading": "みみ"
+  },
+  {
+    "kanji": "口",
+    "reading": "くち"
+  },
+  {
+    "kanji": "右手",
+    "reading": "みぎて"
+  },
+  {
+    "kanji": "左足",
+    "reading": "ひだりあし"
+  },
+  {
+    "kanji": "四年生",
+    "reading": "よねんせい"
+  },
+  {
+    "kanji": "糸車",
+    "reading": "いとぐるま"
+  },
+  {
+    "kanji": "五月三日",
+    "reading": "ごがつみっか"
+  },
+  {
+    "kanji": "音ぷ",
+    "reading": "おんぷ"
+  },
+  {
+    "kanji": "田んぼ",
+    "reading": "たんぼ"
+  },
+  {
+    "kanji": "水",
+    "reading": "みず"
+  },
+  {
+    "kanji": "入れる",
+    "reading": "いれる"
+  },
+  {
+    "kanji": "出す",
+    "reading": "だす"
+  },
+  {
+    "kanji": "土の中",
+    "reading": "つちのなか"
+  },
+  {
+    "kanji": "虫",
+    "reading": "むし"
+  },
+  {
+    "kanji": "大きい",
+    "reading": "おおきい"
+  },
+  {
+    "kanji": "小さい",
+    "reading": "ちいさい"
+  },
+  {
+    "kanji": "字をかく",
+    "reading": "じをかく"
+  },
+  {
+    "kanji": "本をよむ",
+    "reading": "ほんをよむ"
+  },
+  {
+    "kanji": "ながい文",
+    "reading": "ながいぶん"
+  },
+  {
+    "kanji": "まだ早い",
+    "reading": "まだはやい"
+  },
+  {
+    "kanji": "立ち上がる",
+    "reading": "たちあがる"
+  },
+  {
+    "kanji": "王さまの力",
+    "reading": "おうさまのちから"
+  },
+  {
+    "kanji": "竹やぶ",
+    "reading": "たけやぶ"
+  }
+]

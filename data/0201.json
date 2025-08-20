@@ -1,0 +1,298 @@
+[
+  {
+    "kanji": "国語",
+    "reading": "こくご"
+  },
+  {
+    "kanji": "算数",
+    "reading": "さんすう"
+  },
+  {
+    "kanji": "理科",
+    "reading": "りか"
+  },
+  {
+    "kanji": "社会",
+    "reading": "しゃかい"
+  },
+  {
+    "kanji": "図工",
+    "reading": "ずこう"
+  },
+  {
+    "kanji": "電話",
+    "reading": "でんわ"
+  },
+  {
+    "kanji": "読書",
+    "reading": "どくしょ"
+  },
+  {
+    "kanji": "午後",
+    "reading": "ごご"
+  },
+  {
+    "kanji": "交通",
+    "reading": "こうつう"
+  },
+  {
+    "kanji": "多少",
+    "reading": "たしょう"
+  },
+  {
+    "kanji": "新聞",
+    "reading": "しんぶん"
+  },
+  {
+    "kanji": "強弱",
+    "reading": "きょうじゃく"
+  },
+  {
+    "kanji": "合計",
+    "reading": "ごうけい"
+  },
+  {
+    "kanji": "当番",
+    "reading": "とうばん"
+  },
+  {
+    "kanji": "教室",
+    "reading": "きょうしつ"
+  },
+  {
+    "kanji": "自分",
+    "reading": "じぶん"
+  },
+  {
+    "kanji": "親友",
+    "reading": "しんゆう"
+  },
+  {
+    "kanji": "点線",
+    "reading": "てんせん"
+  },
+  {
+    "kanji": "公園",
+    "reading": "こうえん"
+  },
+  {
+    "kanji": "弓矢",
+    "reading": "ゆみや"
+  },
+  {
+    "kanji": "春",
+    "reading": "はる"
+  },
+  {
+    "kanji": "夏",
+    "reading": "なつ"
+  },
+  {
+    "kanji": "秋",
+    "reading": "あき"
+  },
+  {
+    "kanji": "冬",
+    "reading": "ふゆ"
+  },
+  {
+    "kanji": "朝",
+    "reading": "あさ"
+  },
+  {
+    "kanji": "昼",
+    "reading": "ひる"
+  },
+  {
+    "kanji": "夜",
+    "reading": "よる"
+  },
+  {
+    "kanji": "画用紙",
+    "reading": "がようし"
+  },
+  {
+    "kanji": "絵日記",
+    "reading": "えにっき"
+  },
+  {
+    "kanji": "帰り道",
+    "reading": "かえりみち"
+  },
+  {
+    "kanji": "前の組",
+    "reading": "まえのくみ"
+  },
+  {
+    "kanji": "大切",
+    "reading": "たいせつ"
+  },
+  {
+    "kanji": "父",
+    "reading": "ちち"
+  },
+  {
+    "kanji": "母",
+    "reading": "はは"
+  },
+  {
+    "kanji": "兄",
+    "reading": "あに"
+  },
+  {
+    "kanji": "姉",
+    "reading": "あね"
+  },
+  {
+    "kanji": "弟",
+    "reading": "おとうと"
+  },
+  {
+    "kanji": "妹",
+    "reading": "いもうと"
+  },
+  {
+    "kanji": "米",
+    "reading": "こめ"
+  },
+  {
+    "kanji": "麦",
+    "reading": "むぎ"
+  },
+  {
+    "kanji": "一週間",
+    "reading": "いっしゅうかん"
+  },
+  {
+    "kanji": "近い",
+    "reading": "ちかい"
+  },
+  {
+    "kanji": "遠い",
+    "reading": "とおい"
+  },
+  {
+    "kanji": "太い",
+    "reading": "ふとい"
+  },
+  {
+    "kanji": "細い",
+    "reading": "ほそい"
+  },
+  {
+    "kanji": "走る",
+    "reading": "はしる"
+  },
+  {
+    "kanji": "歩く",
+    "reading": "あるく"
+  },
+  {
+    "kanji": "作る",
+    "reading": "つくる"
+  },
+  {
+    "kanji": "高い",
+    "reading": "たかい"
+  },
+  {
+    "kanji": "直す",
+    "reading": "なおす"
+  },
+  {
+    "kanji": "来る",
+    "reading": "くる"
+  },
+  {
+    "kanji": "行く",
+    "reading": "いく"
+  },
+  {
+    "kanji": "内",
+    "reading": "うち"
+  },
+  {
+    "kanji": "外",
+    "reading": "そと"
+  },
+  {
+    "kanji": "顔",
+    "reading": "かお"
+  },
+  {
+    "kanji": "頭",
+    "reading": "あたま"
+  },
+  {
+    "kanji": "体",
+    "reading": "からだ"
+  },
+  {
+    "kanji": "心",
+    "reading": "こころ"
+  },
+  {
+    "kanji": "半日",
+    "reading": "はんにち"
+  },
+  {
+    "kanji": "音楽",
+    "reading": "おんがく"
+  },
+  {
+    "kanji": "食べる",
+    "reading": "たべる"
+  },
+  {
+    "kanji": "止める",
+    "reading": "とめる"
+  },
+  {
+    "kanji": "海",
+    "reading": "うみ"
+  },
+  {
+    "kanji": "魚",
+    "reading": "さかな"
+  },
+  {
+    "kanji": "元の形",
+    "reading": "もとのかたち"
+  },
+  {
+    "kanji": "明るい",
+    "reading": "あかるい"
+  },
+  {
+    "kanji": "星",
+    "reading": "ほし"
+  },
+  {
+    "kanji": "光",
+    "reading": "ひかり"
+  },
+  {
+    "kanji": "今",
+    "reading": "いま"
+  },
+  {
+    "kanji": "何時？",
+    "reading": "なんじ？"
+  },
+  {
+    "kanji": "鳥",
+    "reading": "とり"
+  },
+  {
+    "kanji": "鳴く",
+    "reading": "なく"
+  },
+  {
+    "kanji": "歌声",
+    "reading": "うたごえ"
+  },
+  {
+    "kanji": "市場",
+    "reading": "いちば"
+  }
+]
