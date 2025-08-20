@@ -173,12 +173,18 @@ async function handleStartFromMenu(){
 }
 ```
 
-/* ---- グリッド構成 ---- */
+/* ---- グリッド構成 修正版 ---- */
 function buildGrid(count){
   grid.innerHTML = '';
-  // 列数: 5->1列, 10->2列, 15->3列
-  const cols = count===5?1:count===10?2:3;
+
+  // モードごとの行・列設定
+  let rows = 1, cols = 5;
+  if (count === 5){ rows = 1; cols = 5; }
+  else if (count === 10){ rows = 2; cols = 5; }
+  else if (count === 15){ rows = 3; cols = 5; }
+
   grid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+  grid.style.gridTemplateRows = `repeat(${rows}, auto)`;
 
   questionsInPlay.forEach(q=>{
     const card = document.createElement('div');
@@ -191,12 +197,12 @@ function buildGrid(count){
   });
 }
 
-/* ---- ゲーム進行 ---- */
+/* ---- ゲーム進行 修正版 ---- */
 function startGameLogic(){
   // タイマー開始
-  startTime = Date.now();
-  el('timer').textContent = '0:00';
   if (timerId) clearInterval(timerId);
+  startTime = Date.now();
+  updateTimer(); // すぐに1回表示更新
   timerId = setInterval(updateTimer, 1000);
 
   el('btn-start').disabled = true;
@@ -289,6 +295,7 @@ function finishGame(){
   makeResultTable();
   switchScreen(game, result);
 }
+
 
 
 
