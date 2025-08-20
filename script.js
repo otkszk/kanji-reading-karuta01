@@ -119,14 +119,14 @@ function setupVoiceSelect(){
 function speak(text){
   if (!text) return;
   if (typeof speechSynthesis === 'undefined' || !selectedVoice){
-    return; // 端末で未対応
+    return;
   }
   try{
+    speechSynthesis.cancel(); // ← 前回の発話をリセット
     const u = new SpeechSynthesisUtterance(text);
     u.voice = selectedVoice;
     u.lang = selectedVoice.lang || 'ja-JP';
-    u.rate = 1.0; // 標準速度
-    speechSynthesis.cancel(); // 直前の発話を中断
+    u.rate = 1.0;
     speechSynthesis.speak(u);
   }catch(e){
     console.warn('speech error', e);
@@ -375,6 +375,7 @@ function showModal(message, withCancel=false){
     cancel.onclick = ()=>close(false);
   });
 }
+
 
 
 
