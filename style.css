@@ -33,11 +33,20 @@ button:disabled{background:#c8c8c8;cursor:not-allowed;transform:none}
   justify-items:center; /* 中央寄せ配置 */
 }
 .card{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:2px solid #ddd;
+  border-radius:10px;
+  background:#fafafa;
+  cursor:pointer;
+  user-select:none;
+  transition:.15s;
   width:100%;        /* 均等幅に広げる */
   max-width:160px;   /* 1枚あたりの最大幅 */
   min-height:120px;  /* 高さを少し大きめに */
 }
-.card{position:relative;display:flex;align-items:center;justify-content:center;border:2px solid #ddd;border-radius:10px;background:#fafafa;cursor:pointer;user-select:none;transition:.15s;min-height:90px}
 .card:hover{transform:translateY(-2px);box-shadow:0 4px 10px rgba(0,0,0,.08)}
 .card .kanji{font-size:clamp(1.8rem,6vw,3.2rem);font-weight:800;letter-spacing:.04em;color:#111}
 .card.correct{box-shadow:0 0 18px 4px var(--ok);border-color:var(--ok)}
@@ -59,3 +68,4 @@ th{background:var(--bg)}
 #modal-message{margin-bottom:16px}
 
 .modal-buttons{display:flex;gap:12px;justify-content:center}
+
