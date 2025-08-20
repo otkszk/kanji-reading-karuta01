@@ -101,7 +101,7 @@ function setupVoiceSelect(){
   }
 
   // 最大3件を表示
-  displayList.slice(0,3).forEach(v => {
+  displayList.slice(0,4).forEach(v => {
     const opt = document.createElement('option');
     opt.value = v.name;
     opt.textContent = `${v.name} (${v.lang})`;
@@ -245,7 +245,11 @@ function handleCardClick(card){
       card.classList.add('hidden');
       // 残りから除外
       remaining = remaining.filter(q=>q.kanji !== current.kanji);
-      nextQuestion();
+       
+      // pinpon音と次の読み上げが重ならないように少し待つ
+      setTimeout(()=>{
+        nextQuestion();
+      }, 600);
     }, 350);
   }else{
     playSE('bu');
@@ -362,5 +366,6 @@ function showModal(message, withCancel=false){
     cancel.onclick = ()=>close(false);
   });
 }
+
 
 
