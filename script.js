@@ -4,17 +4,17 @@
 
 // --- 定数・状態 ---
 const FILE_MAP = {
-  "1nen": "１年.json",
-  "2nen_1": "２年01.json",
-  "2nen_2": "２年02.json",
-  "3nen_1": "３年01.json",
-  "3nen_2": "３年02.json",
-  "4nen_1": "４年01.json",
-  "4nen_2": "４年02.json",
-  "5nen_1": "５年01.json",
-  "5nen_2": "５年02.json",
-  "6nen_1": "６年01.json",
-  "6nen_2": "６年02.json"
+  "1nen": "01.json",
+  "2nen_1": "0201.json",
+  "2nen_2": "0202.json",
+  "3nen_1": "0301.json",
+  "3nen_2": "0302.json",
+  "4nen_1": "0401.json",
+  "4nen_2": "0402.json",
+  "5nen_1": "0501.json",
+  "5nen_2": "0502.json",
+  "6nen_1": "0601.json",
+  "6nen_2": "0602.json"
 };
 
 let questionsAll = [];        // 読み込んだ全問題（{kanji, reading}）
@@ -362,4 +362,5 @@ function showModal(message, withCancel=false){
     cancel.onclick = ()=>close(false);
   });
 }
+
 
