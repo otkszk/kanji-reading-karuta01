@@ -11,12 +11,13 @@ h1,h2{margin:0 0 1vh;color:var(--text);text-align:center}
 
 /* 題名下の画像 */
 .top-image{
-  max-width:90%;
-  height:auto;
+  max-width: 100%;   /* 端末幅いっぱいまで広がる */
+  height: auto;      /* 縦横比を維持して縮小 */
   margin: 1vh 0 2vh;
-  border-radius:8px;
+  border-radius: 8px;
+  display: block;    /* 余分な余白を防ぐ */
+  object-fit: contain; /* はみ出さないように調整 */
 }
-
 .setting-item{display:flex;gap:12px;align-items:center;justify-content:space-between;width:92%;max-width:560px}
 .setting-item label{font-weight:700}
 .setting-item select{flex:1;padding:10px 12px;border:1px solid #ccc;border-radius:8px;font-size:1rem}
@@ -75,5 +76,6 @@ th{background:var(--bg)}
 .modal-content{background:#fff;border-radius:12px;padding:24px;max-width:420px;width:86%;text-align:center}
 #modal-message{margin-bottom:16px}
 .modal-buttons{display:flex;gap:12px;justify-content:center}
+
 
 
